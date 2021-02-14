@@ -16,7 +16,7 @@ p.lead {
   padding: 40px 180px;
 }
 .profile-1 {
-
+  display: table;
 }
 .about-me, .my-photo, .details {
     float: left;
