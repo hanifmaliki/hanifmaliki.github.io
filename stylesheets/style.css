@@ -1457,7 +1457,7 @@ body .btn {
 
 @media only screen and (min-width: 768px) {
   /*properties for min width 768*/
-  
+
   #timeline-experience::before {
     /*vertical line for experience in min width 768 */
     left: 50%;
