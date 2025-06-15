@@ -1,0 +1,17 @@
+{
+  "name": "Hanif Maliki Dewanto - Software Engineer",
+  "short_name": "Hanif Maliki",
+  "description": "Portfolio of Hanif Maliki Dewanto - Senior Software Engineer",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "theme_color": "#667eea",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/"
+} 
