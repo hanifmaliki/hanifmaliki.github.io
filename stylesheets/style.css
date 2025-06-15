@@ -1,84 +1,32 @@
-/*
--------------------------------------------------------------------------------
-TABLE OF CONTENT
--------------------------------------------------------------------------------
-*/
 /*!------------------------------------------------------------------
-[MAIN STYLESHEET]
+[FLATRICA | MATERIAL CV STYLESHEET]
 
-PROJECT:	FLATRICA | MATERIAL CV
-VERSION:	2.0 - CLEANED
+PROJECT: FLATRICA | MATERIAL CV
+VERSION: 2.0 - CLEANED & OPTIMIZED
 -------------------------------------------------------------------*/
+
 /*------------------------------------------------------------------
 [TABLE OF CONTENTS]
 
-1. BODY & HTML
-
-    2. PRE-LOADER / #loading
-      2.1 NAME & STATUS / .text-holder
-       2.1.1 NAME / h2
-       2.1.2 STATUS / h6
-
- 	3. HEADER / #home
-		3.1 NAVIGATION / #themenu
-		  3.1.1 MENU / #menu-options
-		    3.1.1.1 PERSONAL LOGO / .logo-flat
-		    3.1.1.2 OPTIONS / a
-		  3.1.2 MENU BUTTON / #menuToggle
-
-		3.2 V-CARD / #v-card-holder #v-card
-		  3.2.1 PROFILE PICTURE / #profile
-		  3.2.2 PROFILE DETAILS / .card-content
-		    3.2.2.1 NAME & STATUS / .info-headings
-		    3.2.2.2 CONTACT INFO / .infos
-		    3.2.2.3 LINKS / .links
-
-	4. ABOUT / #about
-		4.1 DETAILS/ #about-card
-		  4.1.1 ABOUT PARAGRAPH / .card-content p
-		  4.1.1 BUTTONS / #about-btn
-
-    5. EXPERIENCE & EDUCATION / #experience
-        5.1 SECTION TITLE/ .section-title
-		5.2 TIMELINE / #timeline-experience
-		  5.2.1 TIMELINE BLOCK / .timeline-block
-		    5.2.1 TIMELINE DOT / .timeline-dot
-		    5.2.2 TIMELINE CONTENT / .timeline-content
-		      5.2.2.1 TIMELINE TITLE / .timeline-title
-		      5.2.2.2 TIMELINE TITLE INFO / .timeline-info
-		      5.2.2.3 TIMELINE PARAGRAPH / p
-
-    6. SKILLS / #skills
-        6.1 SECTION TITLE/ .section-title
-		6.2 SKILL SECTION TITLE/ .skills-title
-		6.3 SKILL BAR / .skillbar
-		  6.3.1 BAR TITLE / .skillbar-title
-		  6.3.2 BAR / .skillbar-title
-		  6.3.3 PERCENTAGE / .skill-bar-percent
-
-    7. CONTACT / #contact
-        7.1 SECTION TITLE/ .section-title
-        7.2 CONTACT FORM / #contact-form
-        7.3 MAP / #myMap
-
-    8. SCROLL TO TOP / #scroll-top
-        8.1 BUTTON / #scrollup
-
-    9. FOOTER / footer
-        9.1 DETAILS / p
-        9.2 LINK / a
+1. GLOBAL STYLES & TYPOGRAPHY
+2. LOADING SCREEN
+3. NAVIGATION & HEADER
+4. PROFILE CARD
+5. ABOUT SECTION
+6. TIMELINE (EXPERIENCE & EDUCATION)
+7. SKILLS SECTION
+8. CONTACT SECTION
+9. FOOTER
+10. UTILITIES & COMPONENTS
+11. RESPONSIVE DESIGN
 
 -------------------------------------------------------------------*/
 /*
--------------------------------------------------------------------------------
-1. HTML, BODY, SECTION, CONTAINER, CARD
--------------------------------------------------------------------------------
+===============================================================================
+1. GLOBAL STYLES & TYPOGRAPHY
+===============================================================================
 */
-/*
--------------------------------------------------------------------------------
-#BODY & HTML
--------------------------------------------------------------------------------
-*/
+/* === ROOT & BASE STYLES === */
 html,
 body {
   margin: 0;
@@ -94,219 +42,115 @@ body {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-overflow-scrolling: touch;
-  /*
-  -------------------------------------------------------------------------------
-  #FONT & TYPOGRAPHY
-  -------------------------------------------------------------------------------
-  */
 }
 
-html h1,
-html h2,
-html h3,
-html h4,
-html h5,
-html h6,
-html span,
-body h1,
-body h2,
-body h3,
-body h4,
-body h5,
-body h6,
-body span {
+/* === TYPOGRAPHY === */
+h1, h2, h3, h4, h5, h6, span {
   font-family: 'Raleway', sans-serif;
 }
 
-html h4,
-body h4 {
+h4 {
   font-size: 2.28rem;
   line-height: 110%;
   margin: 1.14rem 0 0.912rem 0;
 }
 
-html p,
-html a,
-html li,
-html label,
-html input,
-html blockquote,
-html cite,
-html div,
-body p,
-body a,
-body li,
-body label,
-body input,
-body blockquote,
-body cite,
-body div {
+h6 {
+  font-size: 1.4em;
+}
+
+p, a, li, label, input, blockquote, cite, div {
   font-family: 'Muli', sans-serif;
 }
 
-html p,
-body p {
+p {
   color: #757575;
 }
 
-html a,
-body a {
+a {
   color: #1976D2;
+  transition: color 0.3s ease;
 }
 
-html a:hover,
-body a:hover {
+a:hover {
   color: #2988e6;
   text-decoration: none;
 }
 
-html a:focus,
-body a:focus {
+a:focus {
   color: #12579b;
   text-decoration: none;
 }
 
-html h1,
-body h1 {
-  font-weight: 700;
-}
+/* === FONT WEIGHTS === */
+h1 { font-weight: 700; }
+h2, h3, h4 { font-weight: 600; }
+h5, h6 { font-weight: 500; }
+p, a, li { font-weight: 400; }
 
-html h2,
-html h3,
-html h4,
-body h2,
-body h3,
-body h4 {
-  font-weight: 600;
-}
-
-html h5,
-html h6,
-body h5,
-body h6 {
-  font-weight: 500;
-}
-
-html p,
-html a,
-html li,
-body p,
-body a,
-body li {
-  font-weight: 400;
-}
-
-html h6,
-body h6 {
-  font-size: 1.4em;
-}
-
-html .is-hidden,
-body .is-hidden {
+/* === UTILITIES === */
+.is-hidden {
   visibility: hidden;
 }
 
-html .btn,
-body .btn {
+.btn {
   padding-top: 8px;
 }
 
-/*
--------------------------------------------------------------------------------
-#SECTION
--------------------------------------------------------------------------------
-*/
+/* === LAYOUT COMPONENTS === */
+
+/* Section */
 .section {
-  /*section properties*/
   position: relative;
-  padding-top: 15px;
-  padding-bottom: 30px;
+  padding: 15px 0 30px;
   background-color: transparent;
 }
 
 .section .section-title {
-  /*section title*/
   margin-bottom: 30px;
 }
 
 .section .section-title .title-icon {
-  /*icon*/
   margin-right: 20px;
 }
 
-/*
--------------------------------------------------------------------------------
-#CONTAINER
--------------------------------------------------------------------------------
-*/
+/* Container */
 .container {
-  /*container properties*/
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 0 15px;
+  margin: 0 auto;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  -moz-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
+  transform: translateZ(0) translate3d(0, 0, 0);
 }
 
-@media (min-width: 768px) {
-  .container {
-    /*container at min width 768px*/
-    width: 750px;
-  }
-}
+@media (min-width: 768px) { .container { width: 750px; } }
+@media (min-width: 992px) { .container { width: 970px; } }
+@media (min-width: 1200px) { .container { width: 1000px; } }
 
-@media (min-width: 992px) {
-  .container {
-    /*container at min width 992px*/
-    width: 970px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    /*container at min width 1200px*/
-    width: 1000px;
-  }
-}
-
-/*
--------------------------------------------------------------------------------
-#CARD
--------------------------------------------------------------------------------
-*/
+/* Card */
 .card {
-  /*card layout*/
   position: relative;
   background-color: #fff;
-  transition: box-shadow .25s;
+  transition: box-shadow 0.25s ease;
   border-radius: 2px;
   margin: 8px 0;
 }
 
 .card .card-content {
-  /*card content*/
   padding: 40px;
   border-radius: 0 0 2px 2px;
 }
 
 .card .card-content p {
-  /*paragraph style inside card content*/
   margin: 0;
   color: inherit;
   text-align: center;
 }
 
 /*
--------------------------------------------------------------------------------
-2. ENHANCED LOADING SCREEN
--------------------------------------------------------------------------------
+===============================================================================
+2. LOADING SCREEN
+===============================================================================
 */
 #loading {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #667eea 100%);
@@ -629,9 +473,9 @@ body .btn {
 }
 
 /*
--------------------------------------------------------------------------------
-3. HEADER
--------------------------------------------------------------------------------
+===============================================================================
+3. NAVIGATION & HEADER
+===============================================================================
 */
 /* Enhanced Navigation Drawer */
 #home .menu {
@@ -1271,53 +1115,45 @@ body .btn {
 }
 
 /*
--------------------------------------------------------------------------------
-4. ABOUT
--------------------------------------------------------------------------------
+===============================================================================
+4. ABOUT SECTION
+===============================================================================
 */
-/*about section*/
 #about {
-  /*profile about*/
   margin-top: 0;
 }
 
 #about .about-btn {
-  /*about buttons*/
   height: auto;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
   animation-delay: 1s;
   text-align: center;
 }
 
 #about .about-btn .btn {
-  /*button style*/
-  margin: 7px 7px;
+  margin: 7px;
   background: #06A763;
   color: #ffffff;
   width: 180px;
   border-radius: 2px;
+  transition: background 0.3s ease;
 }
 
 #about .about-btn .btn:hover {
-  /*hover effect*/
   background: #046c40;
 }
 
 /*
--------------------------------------------------------------------------------
-#TIMELINE SECTION BOTH 5.EDUCATION AND 7.EXPERIENCE EXTENDS FROM IT
--------------------------------------------------------------------------------
+===============================================================================
+5. TIMELINE (EXPERIENCE & EDUCATION)
+===============================================================================
 */
 
-
 #timeline-experience {
-  /*experience section*/
   position: relative;
 }
 
 #timeline-experience::before {
-  /*straight line*/
   content: '';
   position: absolute;
   top: 0;
@@ -1330,12 +1166,10 @@ body .btn {
 }
 
 .timeline-block {
-  /*timeline block*/
   position: relative;
 }
 
 .timeline-block::after {
-  /*timeline block after*/
   clear: both;
   content: "";
   display: table;
@@ -1515,11 +1349,10 @@ body .btn {
 }
 
 /*
--------------------------------------------------------------------------------
+===============================================================================
 6. SKILLS SECTION
--------------------------------------------------------------------------------
+===============================================================================
 */
-/*skills section - enhanced*/
 #skills .skill-card {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border-radius: 15px;
@@ -1754,36 +1587,32 @@ body .btn {
 }
 
 /*
--------------------------------------------------------------------------------
-13. CONTACT SECTION
--------------------------------------------------------------------------------
+===============================================================================
+7. CONTACT SECTION
+===============================================================================
 */
-/*contact section*/
 #contact .card .card-content .input-field {
-  /*input field*/
   position: relative;
   margin-top: 1rem;
   margin-bottom: 12px;
 }
 
 #contact .card .card-content .input-field label {
-  /*input label*/
   left: 0;
   font-weight: normal;
   top: 0.5rem;
 }
 
 #contact .card .card-content .btn {
-  /*send button*/
   background-color: #06A763;
   width: 115px;
   color: #fff;
   border-radius: 2px;
   margin-top: 7px;
+  transition: background 0.3s ease;
 }
 
 #contact .card .card-content .btn:hover {
-  /*hover effect*/
   background: #046c40;
 }
 
@@ -1911,11 +1740,12 @@ body .btn {
 }
 
 /*
--------------------------------------------------------------------------------
-14. SCROLL TO TOP SECTION
--------------------------------------------------------------------------------
+===============================================================================
+8. UTILITIES & COMPONENTS
+===============================================================================
 */
-/*scroll to top button*/
+
+/* Scroll to Top Button */
 #scrollup {
   color: #fff;
   height: 45px;
@@ -1931,15 +1761,15 @@ body .btn {
   z-index: 1;
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
   display: none;
-  transition: .3s;
+  transition: 0.3s ease;
 }
 
 /*
--------------------------------------------------------------------------------
-15. FOOTER SECTION
--------------------------------------------------------------------------------
+===============================================================================
+9. FOOTER
+===============================================================================
 */
-/*footer section*/
+
 footer {
   width: 100%;
   height: auto;
@@ -1948,11 +1778,7 @@ footer {
   margin-bottom: 0;
 }
 
-/*
--------------------------------------------------------------------------------
-13. CONTACT SECTION - ENHANCED
--------------------------------------------------------------------------------
-*/
+/* === ENHANCED CONTACT STYLES === */
 /* Contact Section Background */
 .contact-section {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -2299,11 +2125,7 @@ footer {
   }
 }
 
-/*
--------------------------------------------------------------------------------
-16. TIMELINE SECTION - SIMPLE & CLEAN
--------------------------------------------------------------------------------
-*/
+/* === ENHANCED TIMELINE STYLES === */
 /* Timeline Section Background */
 .timeline-section {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -2703,11 +2525,7 @@ footer {
   }
 }
 
-/*
--------------------------------------------------------------------------------
-17. ENHANCED PROFILE CARD
--------------------------------------------------------------------------------
-*/
+/* === ENHANCED PROFILE CARD === */
 /* ===== GRADIENT ANIMATION ===== */
 @keyframes gradientShift {
   0% {
@@ -3361,11 +3179,7 @@ footer {
 
 
 
-/*
--------------------------------------------------------------------------------
-18. ENHANCED ABOUT SECTION
--------------------------------------------------------------------------------
-*/
+/* === ENHANCED ABOUT SECTION === */
 .enhanced-about-section {
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   position: relative;
@@ -3732,11 +3546,7 @@ a.btn.cta-btn {
   padding: 15px 30px;
 }
 
-/*
--------------------------------------------------------------------------------
-17. ENHANCED FOOTER SECTION
--------------------------------------------------------------------------------
-*/
+/* === ENHANCED FOOTER SECTION === */
 .enhanced-footer {
   background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
   color: #fff;
@@ -3939,6 +3749,30 @@ a.btn.cta-btn {
 }
 
 /* Expertise Content */
-.expertise-content>p {
+.expertise-content > p {
   text-align: left !important;
+}
+
+/*
+===============================================================================
+10. RESPONSIVE DESIGN
+===============================================================================
+*/
+
+/* Note: Individual component responsive styles are included with their respective sections above.
+   This section is reserved for global responsive utilities and overrides. */
+
+/* Global responsive utilities */
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 0 10px;
+  }
+  
+  h4 {
+    font-size: 1.8rem;
+  }
+  
+  .card .card-content {
+    padding: 20px;
+  }
 }
