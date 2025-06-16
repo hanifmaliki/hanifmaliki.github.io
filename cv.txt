@@ -1,0 +1,80 @@
+Hanif Maliki Dewanto
+Senior Software Engineer
++6283145673832
+hanifmaliki97@gmail.com
+hanifmaliki.github.io
+Jakarta, Indonesia
+
+Summary
+I'm a passionate and solution-driven software engineer with extensive expertise across backend, frontend, and DevOps domains. I excel at solving complex technical challenges and continuously expanding my knowledge through new technologies. My focus on clean architecture, industry best practices, and maintainable code enables me to deliver robust, efficient, and scalable software solutions. I thrive in collaborative, fast-paced environments where I can contribute to building systems that drive real-world impact and long-term value.
+
+Experience
+Freelance AI Application Developer
+GlobalDeal
+02/2025 - Present
+• Designed and developed an AI-powered SaaS platform for global business expansion through intelligent data collection and conversational automation
+• Built a custom AI agent using OpenAI's GPT models with advanced function calling and structured output handling
+• Engineered optimized prompts to ensure AI responses align with specific business contexts and objectives
+• Integrated external APIs (SerpApi, Prospeo, Extractor API) for real-time business intelligence
+• Developed a conversational assistant capable of answering complex user queries using contextual, aggregated data
+• Exposed AI capabilities via secure, scalable RESTful APIs built on a modular backend architecture
+• Implemented subscription and billing workflows using Stripe's API
+• Deployed the application as a containerized service on Google Cloud Run for automatic scaling and cost efficiency
+
+Senior Software Engineer
+Alterra Bills
+08/2024 - Present
+• Led the design and implementation of a microservices architecture, improving system scalability and maintainability
+• Optimized the performance of a high-throughput bill payment system through database query optimization and effective caching strategies
+• Refactored legacy codebase by applying Clean Architecture principles and Dependency Injection, resulting in higher unit test coverage and improved maintainability
+• Designed and implemented a dynamic Rule Engine to enhance profitability and reliability by scoring billers based on success rate, latency, and margins
+• Defined and developed an abstraction protocol for integrating new billers and partners, simplifying the onboarding process
+• Implemented event-driven architecture using message queues for reliable service communication
+• Established monitoring and observability practices using Prometheus and Grafana
+
+Full Stack Developer
+Petrosea
+08/2022 - 08/2024
+• Contributed to multiple digital transformation initiatives for office and mining site operations, improving efficiency and data-driven decision-making
+• Designed and developed SaaS applications to optimize mining workflows, including operator-shift assignments and real-time production performance metrics
+• Built scalable backend services using Golang (Fiber, GORM) following clean architecture principles
+• Improved platform security by integrating HashiCorp Vault for secret management, reducing the risk of credential leaks
+• Developed modern, responsive frontend applications using React.js (Next.js), styled with Ant Design, Material UI, and Tailwind CSS
+• Led the migration of multiple applications from on-premises infrastructure to Azure Kubernetes Service (AKS)
+• Implemented CI/CD pipelines using GitLab CI, automated deployments, and enforced secure development practices
+• Centralized logging and observability using the EFK stack (Elasticsearch, Fluentd, Kibana)
+
+Application Developer
+MOSTRANS
+09/2021 - 08/2022
+• Developed a SaaS platform for digital healthcare logistics, enabling real-time coordination between shippers and transporters
+• Built and optimized backend services using Node.js and Golang, integrating GraphQL to improve performance
+• Designed and implemented modern frontend applications with React.js and Material UI
+• Co-created a centralized design system for MOSTRANS frontend projects, published component libraries to NPM
+• Developed cross-platform mobile applications using React Native with NativeBase
+• Modernized a legacy ASP.NET Core monolithic application by integrating micro-frontends
+
+Software Developer
+PT Avalogix Mitra Solusi
+10/2020 - 09/2021
+• Worked with major enterprise clients (Jawa Power, AXA Mandiri, Garudafood, Galderma) to maintain and enhance business-critical applications
+• Developed and maintained monolithic applications using ASP.NET with responsive user interfaces
+• Built low-code solutions using Microsoft Power Apps, Power Automate, and SharePoint
+• Created custom SharePoint widgets with React.js, enhancing UX and adding advanced functionality
+• Led data migration projects from on-prem SharePoint to SharePoint Online
+
+Education
+Electronics and Instrumentation
+Universitas Gadjah Mada (UGM) - Bachelor's degree
+08/2016 - 07/2020
+• Graduated with a GPA of 3.46
+• Designed a wall stiffness assessment system using IMU sensors, fuzzy logic, and PHP-based GUI
+• Served as President of HMEI (Himpunan Mahasiswa Elektronika dan Instrumentasi) in 2018
+• Won 1st place in KRTI 2018 (Kontes Robot Terbang Indonesia) in technology development category
+
+Skills
+Backend: Golang, Python, Node.js, REST API, GraphQL, gRPC, RabbitMQ, Apache Kafka
+Frontend: JavaScript, TypeScript, React.js, Next.js, Vue.js, React Native
+DevOps: Docker, Kubernetes, GitLab CI/CD, Linux
+Databases: PostgreSQL, MySQL, SQL Server, MongoDB, Redis
+Tools: Git, OpenAI API, Swagger / OpenAPI
