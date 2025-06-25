@@ -75,7 +75,7 @@ Universitas Gadjah Mada (UGM) - Bachelor's degree
 • Won 1st place in KRTI 2018 (Kontes Robot Terbang Indonesia) in technology development category
 
 Skills
-Backend: Golang, Python, Node.js, REST API, GraphQL, gRPC, RabbitMQ, Apache Kafka
+Backend: Golang, Python, Node.js, REST API, GraphQL, gRPC, Apache Kafka, RabbitMQ
 Frontend: JavaScript, TypeScript, React.js, Next.js, Vue.js, React Native
 DevOps: Docker, Kubernetes, GitLab CI/CD, Linux
 Databases: PostgreSQL, MySQL, SQL Server, MongoDB, Redis
