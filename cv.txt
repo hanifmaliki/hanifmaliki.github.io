@@ -9,9 +9,21 @@ Summary
 I'm a passionate and solution-driven software engineer with extensive expertise across backend, frontend, and DevOps domains. I excel at solving complex technical challenges and continuously expanding my knowledge through new technologies. My focus on clean architecture, industry best practices, and maintainable code enables me to deliver robust, efficient, and scalable software solutions. I thrive in collaborative, fast-paced environments where I can contribute to building systems that drive real-world impact and long-term value.
 
 Experience
+
+Senior Software Engineer
+Alterra Bills
+08/2024 - Present
+• Led the design and implementation of a microservices architecture, improving system scalability and maintainability
+• Optimized the performance of a high-throughput bill payment system through database query optimization and effective caching strategies
+• Refactored legacy codebase by applying Clean Architecture principles and Dependency Injection, resulting in higher unit test coverage and improved maintainability
+• Designed and implemented a system called "Rule Engine" to enhance profitability and reliability by scoring and switching between billers based on success rate, latency, and margins
+• Defined and developed an abstraction protocol for integrating new billers and partners, simplifying the onboarding process
+• Implemented event-driven architecture using message queues for reliable service communication
+• Established monitoring and observability practices using Prometheus and Grafana
+
 Freelance AI Application Developer
 GlobalDeal
-02/2025 - Present
+02/2024 - 06/2024
 • Designed and developed an AI-powered SaaS platform for global business expansion through intelligent data collection and conversational automation
 • Built a custom AI agent using OpenAI's GPT models with advanced function calling and structured output handling
 • Engineered optimized prompts to ensure AI responses align with specific business contexts and objectives
@@ -20,17 +32,6 @@ GlobalDeal
 • Exposed AI capabilities via secure, scalable RESTful APIs built on a modular backend architecture
 • Implemented subscription and billing workflows using Stripe's API
 • Deployed the application as a containerized service on Google Cloud Run for automatic scaling and cost efficiency
-
-Senior Software Engineer
-Alterra Bills
-08/2024 - Present
-• Led the design and implementation of a microservices architecture, improving system scalability and maintainability
-• Optimized the performance of a high-throughput bill payment system through database query optimization and effective caching strategies
-• Refactored legacy codebase by applying Clean Architecture principles and Dependency Injection, resulting in higher unit test coverage and improved maintainability
-• Designed and implemented a dynamic Rule Engine to enhance profitability and reliability by scoring billers based on success rate, latency, and margins
-• Defined and developed an abstraction protocol for integrating new billers and partners, simplifying the onboarding process
-• Implemented event-driven architecture using message queues for reliable service communication
-• Established monitoring and observability practices using Prometheus and Grafana
 
 Full Stack Developer
 Petrosea
@@ -61,14 +62,15 @@ PT Avalogix Mitra Solusi
 • Developed and maintained monolithic applications using ASP.NET with responsive user interfaces
 • Built low-code solutions using Microsoft Power Apps, Power Automate, and SharePoint
 • Created custom SharePoint widgets with React.js, enhancing UX and adding advanced functionality
-• Led data migration projects from on-prem SharePoint to SharePoint Online
+• Led data migration projects from on-premises SharePoint to SharePoint Online
 
 Education
+
 Electronics and Instrumentation
 Universitas Gadjah Mada (UGM) - Bachelor's degree
 08/2016 - 07/2020
 • Graduated with a GPA of 3.46
-• Designed a wall stiffness assessment system using IMU sensors, fuzzy logic, and PHP-based GUI
+• Designed a wall stiffness assessment system using IMU sensors, fuzzy logic, and PHP-based GUI in my final project
 • Served as President of HMEI (Himpunan Mahasiswa Elektronika dan Instrumentasi) in 2018
 • Won 1st place in KRTI 2018 (Kontes Robot Terbang Indonesia) in technology development category
 
