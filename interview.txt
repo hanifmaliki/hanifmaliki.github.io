@@ -1,0 +1,22 @@
+Interview Introduction Template
+
+First, I'd like to thank you for inviting me to this interview opportunity.
+
+My name is Hanif Maliki, and I'm currently working as a Senior Software Engineer at Alterra Bills, a fintech company that processes bill payments and digital products.
+
+I have over 4 years of experience in software development across multiple industries - fintech, healthcare logistics, mining, and enterprise solutions. Throughout my career, I've consistently delivered solutions that improve business efficiency and drive real impact.
+
+In my current role at Alterra, I work on systems that handle over 1 million transactions daily. I've led several key initiatives including:
+- Designing a "Rule Engine" system that automatically selects the best payment partners, improving both reliability and profitability
+- Implementing microservices architecture that made our systems more scalable and easier to maintain
+- Optimizing database performance, which significantly reduced response times
+
+My technical expertise covers the full development cycle - from backend systems using Golang and Node.js, to user-friendly frontend applications with React, and deployment using modern cloud technologies like Docker and Kubernetes.
+
+What sets me apart is my ability to translate complex technical challenges into business solutions. For example, I previously developed an AI-powered platform for a global business expansion company, and I've led digital transformation projects in the mining industry that improved operational efficiency.
+
+I have a Bachelor's degree in Electronics and Instrumentation from Universitas Gadjah Mada, where I graduated with a 3.46 GPA and served as student organization president. I also won 1st place in a national robotics competition.
+
+I'm passionate about building systems that solve real-world problems and I thrive in collaborative environments where I can contribute to meaningful projects while continuing to learn and grow.
+
+Thank you for your time, and I'm excited to discuss how my experience can contribute to your team's success.

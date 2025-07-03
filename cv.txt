@@ -64,6 +64,16 @@ PT Avalogix Mitra Solusi
 • Created custom SharePoint widgets with React.js, enhancing UX and adding advanced functionality
 • Led data migration projects from on-premises SharePoint to SharePoint Online
 
+
+Hardware Programmer
+GAMAFORCE UGM
+01/2018 - 12/2018
+• Designed and developed a flight controller utilizing an IMU sensor and GPS with a Teensy microcontroller
+• Implemented and tested flight control algorithms for autonomous flight operations
+• Integrated sensor data from IMU and GPS modules for real-time navigation and control
+• Ensured stability and reliability of the flight controller across various flight conditions
+• Collaborated with the robotics team to optimize controller performance for competition requirements
+
 Education
 
 Electronics and Instrumentation

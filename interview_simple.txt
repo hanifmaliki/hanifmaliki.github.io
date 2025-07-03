@@ -1,0 +1,19 @@
+Simple Interview Introduction
+
+Thank you for inviting me to this interview.
+
+My name is Hanif Maliki, and I'm a Senior Software Engineer at Alterra Bills, a fintech company.
+
+I have 4 years of experience building software solutions across different industries - fintech, logistics, mining, and enterprise companies. I work with both backend and frontend technologies, and I'm comfortable with the full development process.
+
+At my current company, I work on systems that process over 1 million transactions daily. I've led projects to improve system performance and built new features that help the business run more efficiently.
+
+My main skills include backend development with Golang and Node.js, frontend with React, and modern deployment tools like Docker and Kubernetes.
+
+I have a Bachelor's degree from Universitas Gadjah Mada where I graduated with good grades and was active in student leadership.
+
+I enjoy solving complex problems and working with teams to build software that makes a real difference for businesses and users.
+
+I'm excited about this opportunity and look forward to discussing how I can contribute to your team.
+
+Thank you. 
