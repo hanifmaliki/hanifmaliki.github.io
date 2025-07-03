@@ -64,7 +64,6 @@ PT Avalogix Mitra Solusi
 • Created custom SharePoint widgets with React.js, enhancing UX and adding advanced functionality
 • Led data migration projects from on-premises SharePoint to SharePoint Online
 
-
 Hardware Programmer
 GAMAFORCE UGM
 01/2018 - 12/2018
