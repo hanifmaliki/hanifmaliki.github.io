@@ -2347,6 +2347,11 @@ footer {
   color: #fff;
 }
 
+.job-badge.hardware {
+  background: rgba(255, 87, 34, 0.9);
+  color: #fff;
+}
+
 /* Card Body */
 .card-body {
   padding: 30px;
